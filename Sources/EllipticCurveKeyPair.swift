@@ -96,7 +96,7 @@ public enum EllipticCurveKeyPair {
         
         public init(config: Config) {
             self.config = config
-            self.helper = Helper(config: config)
+            self.helper = Helper()
         }
         
         public func deleteKeyPair() throws {
